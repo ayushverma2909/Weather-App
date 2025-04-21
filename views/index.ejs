@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to My Weather App 🌩️|🌤️</h1>
+
+      <form action="/weather" method="get">
+        <input
+          type="text"
+          name="city"
+          placeholder="Enter the City Name"
+          class="input-label"
+        />
+        <input type="submit" class="button" />
+      </form>
+
+      <div class="card">
+        <div>
+            <% if (locals.temperature && locals.description && locals.currentCity && locals.countryName) { %>
+                <h4>Temperature: <%= temperature.toFixed(1) %> °C</h4>
+                <h4>Weather: <%= description %></h4>
+                <h4>Location: <%= currentCity %>, <%= countryName %></h4>
+              <% } else if (error){ %>
+                <p style="color: red"><%= error %></p>
+              <% } %>
+        </div>
+      </div>c
+    </div>
+  </body>
+</html>
