@@ -26,11 +26,11 @@
                 <h4>Temperature: <%= temperature.toFixed(1) %> °C</h4>
                 <h4>Weather: <%= description %></h4>
                 <h4>Location: <%= currentCity %>, <%= countryName %></h4>
-              <% } else if (error){ %>
+              <% } else if (locals.error){ %>
                 <p style="color: red"><%= error %></p>
               <% } %>
         </div>
-      </div>c
+      </div>
     </div>
   </body>
 </html>
