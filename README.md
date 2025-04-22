@@ -19,7 +19,7 @@ A beautifully designed **Weather Forecast App** that brings real-time weather up
 
 ## 📸 Preview
 
-![Weather App Screenshot](https://your-screenshot-link-here.com)
+<img src="assets/screenshots/screenshot1.png" />
 
 > ☁️ See clouds move. 🌧️ Watch rain fall. 🌞 Let the sun shine — all within your browser.
 
@@ -32,3 +32,7 @@ A beautifully designed **Weather Forecast App** that brings real-time weather up
 ```bash
 git clone https://github.com/ayushverma2909/weather-app.git
 cd weather-app
+npm install
+```
+> change your api key inside index.js <br>
+> <img src = "assets/screeshots/screenshot2.png"/>
