@@ -35,4 +35,4 @@ cd weather-app
 npm install
 ```
 > change your api key inside index.js <br>
-> <img src = "assets/screeshots/screenshot2.png"/>
+> <img src = "assets/screenshots/screenshot2.png"/>
